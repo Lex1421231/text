@@ -10,16 +10,16 @@ body {
     margin: 0 auto;
 }
 
-.container__inner {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    max-height: 50px;
-    margin-top: 20px;
+.container {
+    &__inner {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
 }
 
 .text {
-    font-size: 35px;
+    font-size: 30px;
     font-weight: 900;
 
     &--gradient {
@@ -60,7 +60,7 @@ body {
         font-family: cursive;
     }
 
-    &--soft_with_shadow {
+    &--soft-with-shadow {
         color: rgba(95, 233, 114, 0.842);
         text-shadow: 5px 5px 10px rgb(0, 0, 0);
     }

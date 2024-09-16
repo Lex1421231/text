@@ -20,12 +20,10 @@ body {
           align-items: center;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
-          justify-content: center;
-  max-height: 50px;
-  margin-top: 20px; }
+          justify-content: center; }
 
 .text {
-  font-size: 35px;
+  font-size: 30px;
   font-weight: 900; }
   .text--gradient {
     background: -webkit-linear-gradient(#51cf6d, #2372e9);
@@ -49,7 +47,7 @@ body {
     font-family: Georgia, 'Times New Roman', Times, serif; }
   .text--cursive {
     font-family: cursive; }
-  .text--soft_with_shadow {
+  .text--soft-with-shadow {
     color: rgba(95, 233, 114, 0.842);
     text-shadow: 5px 5px 10px black; }
 
